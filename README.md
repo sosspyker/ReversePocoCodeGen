@@ -16,6 +16,7 @@ Simply copy below stored procedures:
         [GeneratePocoCode]
 	    [GeneratePKs] 
 to your Microsoft SQL Server (version >= 2005) database for which you need to generate the C# code.
+
 1. Open SQL Server Query Analyser, 
 2. Select New Query and select the database from drop-down list  from toolbar that needs code generation
 3. Execute stored procedure ``` [GeneratePocoCode]```
