@@ -10,13 +10,13 @@
 			<ul>
 			  <li><code>[GeneratePocoCode]</code> and </li> 
 			  <li><code>[GeneratePKs]</code> </li>
-			</ul></ br>
+			</ul>
 	<p>to your Microsoft SQL Server (version >= 2005) database and then run this stored procedure.
 	1. Open SQL Server Query Analyser, 
 	2. Select New Query and select the database from drop-down list  from toolbar that needs code generation
 	3. Execute below stored produre like below:</p><br />
 	
-	Ex:
+	Ex:<br />
 	exec GeneratePocoCode 
 			'MyDb',				-- name of your application
 			'C:\MyTest\Domain'		-- root folder where your reverse poco classes need to be generated
