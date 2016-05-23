@@ -27,12 +27,12 @@ USE [MyDb]
 GO
 
 DECLARE @RC int
-DECLARE @appname nvarchar(500)              /* name of application */
-    @RootFolder varchar(1000)               /* root folder where reverse poco code is generated */
-    @AutoPropsFolder varchar(1000)          /* optional path (relative to root) for entity classes - default: '\Entities\' */
-    @IRepositoryFolder varchar(1000)        /* optional path (relative to root) for repository interfaces - default: '\Abstract\' */
-    @RepositoryFolder varchar(1000)         /* optional path (relative to root) for repository classes - default: '\Concrete\' */
-    @InfrastructureFolder varchar(1000)     /* optional path (relative to root) for views, view-models, dbcotext, NInject classes - default: '\Infrastructure\' */
+DECLARE @appname nvarchar(500),              /* name of application */
+    @RootFolder varchar(1000),               /* root folder where reverse poco code is generated */
+    @AutoPropsFolder varchar(1000),          /* optional path (relative to root) for entity classes - default: '\Entities\' */
+    @IRepositoryFolder varchar(1000),        /* optional path (relative to root) for repository interfaces - default: '\Abstract\' */
+    @RepositoryFolder varchar(1000),         /* optional path (relative to root) for repository classes - default: '\Concrete\' */
+    @InfrastructureFolder varchar(1000),     /* optional path (relative to root) for views, view-models, dbcotext, NInject classes - default: '\Infrastructure\' */
     @IsEntitiesInSepFolder bit              /* 0 => All entity classes in a single file in @InfrastructureFolder, 1 => Each entity written to a separate file in @AutoPropsFolder */
 
 -- Set parameter values here.
