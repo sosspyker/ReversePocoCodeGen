@@ -16,8 +16,8 @@
 	2. Select New Query and select the database from drop-down list  from toolbar that needs code generation
 	3. Execute below stored produre like below:</p><br />
 	
-	Ex: <br />
-  <code>	
+	Ex:
+  	<code>	
 	exec GeneratePocoCode 
 			'MyDb',					-- name of your application
 			'C:\MyTest\Domain'		-- root folder where your reverse poco classes need to be generated
