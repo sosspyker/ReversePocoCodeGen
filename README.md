@@ -17,11 +17,9 @@
 	3. Execute below stored produre like below:</p><br />
 	
 	Ex:
-  	<code>	
 	exec GeneratePocoCode 
-			'MyDb',					-- name of your application
+			'MyDb',				-- name of your application
 			'C:\MyTest\Domain'		-- root folder where your reverse poco classes need to be generated
-	</code>
 	Optionally you may also specify individual folders for entities, interfaces, interface implementations etc.,
 
 What does it do?
