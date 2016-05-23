@@ -1,5 +1,5 @@
 # ReversePocoCodeGen
-Generates .NET reverse poco classes for a given Micrsoft SQL Server (ver. 2005 or later) database
+Uses T-SQL to generate C# Entity Framework reverse POCO classes for a given Micrsoft SQL Server database
 
 
 #### Requirements:
