@@ -35,7 +35,7 @@ DECLARE @appname nvarchar(500),              /* name of application */
     @InfrastructureFolder varchar(1000),     /* optional path (relative to root) for views, view-models, dbcotext, NInject classes - default: '\Infrastructure\' */
     @IsEntitiesInSepFolder bit              /* 0 => All entity classes in a single file in @InfrastructureFolder, 1 => Each entity written to a separate file in @AutoPropsFolder */
 
--- Set parameter values here.
+-- ToDo: Set parameter values here.
 
 EXECUTE @RC = [dbo].[GeneratePocoCode] 
    @appname
