@@ -6,6 +6,8 @@ Generates .NET reverse poco classes for a given Micrsoft SQL Server (ver. 2005 o
 
 ###### For code generation: 
 _Microsoft SQL Server version 2005 or later_
+
+_[Enable xp_cmdshell SQL Server configuration option](https://msdn.microsoft.com/en-us/library/ms190693.aspx)_
 ###### For using the generated code: 
 _C#, Entity Framework 6.0 or later, NInject (for dependency injection)_
 
